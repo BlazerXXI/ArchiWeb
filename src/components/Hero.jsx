@@ -23,9 +23,9 @@ const Hero = () => {
           alt={bgSlide01}
           width="1150px"
           id="heroBg"
-          className="filter w-full brightness-50 sm:brightness-100 sm:ml-[100px]"
+          className="filter w-full brightness-50 sm:brightness-100 "
         />
-        <div className="absolute bottom-0 right-0 sm:right-[-100px] flex gap-4 py-2 px-2 sm:gap-[50px] sm:py-[16px] sm:px-[33px] bg-[#F4F6F5B2] ">
+        <div className="absolute bottom-0 right-0  flex gap-4 py-2 px-2 sm:gap-[50px] sm:py-[16px] sm:px-[33px] bg-[#F4F6F5B2] ">
           <ArrowBackIcon
             fontSize="large"
             className="cursor-pointer 

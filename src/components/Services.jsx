@@ -11,7 +11,7 @@ const Services = () => {
             Our Services
           </h2>
         </div>
-        <ul className="flex justify-between">
+        <ul className="flex flex-wrap justify-center gap-6 sm:justify-between">
           <li className="text-center items-center max-w-[158px] flex flex-col justify-center">
             <div className="w-[100px] h-[100px] bg-[#254D4D] rounded-full relative">
               <img
