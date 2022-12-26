@@ -7,7 +7,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const Hero = () => {
   return (
-    <section className="hero relative ">
+    <section className="hero relative container m-auto">
       <div className="lg:w-[691px]   lg:h-[550px] sm:w-[450px]   sm:mt-[-150px]  lg:mt-[-275px]   sm:bg-gradient-to-t sm:from-[#F4F6F5E5] sm:to-[#FFFFFFE5] sm:absolute sm:top-1/2 top-0  left-0  ml-0 lg:ml-[-100px] lg:pl-[100px] py-4 pl-4 sm:py-[60px] lg:py-[138px] sm:pr-4  z-20">
         <h1 className="font-[900]  text-[51px] font-['Playfair_Display'] ">
           Best Solution For Your Home
@@ -17,15 +17,15 @@ const Hero = () => {
           purus sit amet
         </p>
       </div>
-      <div className="">
+      <div>
         <img
           src={bgSlide01}
           alt={bgSlide01}
           width="1150px"
           id="heroBg"
-          className="filter w-full brightness-50 sm:brightness-100 "
+          className="filter w-full brightness-50 sm:brightness-100 sm:ml-[100px]"
         />
-        <div className="absolute bottom-0 flex gap-4 py-2 px-2 sm:gap-[50px] right-0   sm:py-[16px]  sm:px-[33px] bg-[#F4F6F5B2] ">
+        <div className="absolute bottom-0 right-0 sm:right-[-100px] flex gap-4 py-2 px-2 sm:gap-[50px] sm:py-[16px] sm:px-[33px] bg-[#F4F6F5B2] ">
           <ArrowBackIcon
             fontSize="large"
             className="cursor-pointer 

@@ -1,13 +1,15 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Services from "./components/Services";
 
 function App() {
   return (
     <>
-      <div className="container m-auto max-w-[1240px]">
+      <div className="">
         <Header />
         <main>
           <Hero />
+          <Services />
         </main>
       </div>
     </>
