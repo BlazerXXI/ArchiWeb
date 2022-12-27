@@ -17,10 +17,11 @@ const Header = () => {
 
         <div
           onClick={handleNav}
-          className="fixed z-50 top-0 rounded-full w-[30px] h-[30px] text-center justify-center items-center active:opacity-40 drop-shadow-md right-0 m-5 mt-14 flex md:hidden cursor-pointer hover:opacity-60 ease-in-out duration-300"
+          className="fixed z-50 top-0 rounded-full w-[30px] h-[30px] text-center justify-center items-center active:opacity-40 drop-shadow-md right-0 m-5 mt-14 flex md:hidden cursor-pointer hover:opacity-60 duration-300 ease-in-out"
         >
           {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
         </div>
+        <div className="w-[30px] h-[30px] bg-[#ffffff80] z-40 rounded-full fixed top-0 right-0 m-5 mt-14"></div>
 
         <nav className="md:gap-16 md:flex hidden mt-10 md:mt-0 justify-center items-center">
           <ul className="grid grid-cols-2 sm:grid-cols-4 md:gap-24 gap-10 p-2 text-center">
@@ -66,8 +67,8 @@ const Header = () => {
         <div
           className={
             !nav
-              ? "fixed  z-50 left-0 top-0 w-[60%] ease-in-out duration-300 h-full border-r  border-r-gray-900 bg-[#2c2c2cf9]"
-              : "fixed left-[-100%] ease-in-out duration-300 h-full border-r  border-r-gray-900 bg-[#2c2c2cf9] z-50"
+              ? "fixed z-50 left-0 top-0 w-[60%] ease-in-out duration-500 h-full border-r border-r-gray-900 bg-[#2c2c2cf9]"
+              : "fixed left-[-100%] top-0 duration-500 linear h-full z-50"
           }
         >
           <nav className="md:gap-16  md:hidden flex flex-col mt-10 md:mt-0 justify-center items-center">
