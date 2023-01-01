@@ -21,7 +21,7 @@ const Header = () => {
         >
           {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
         </div>
-        <div className="w-[45px] sm:w-[30px] h-[45px] sm:h-[30px] bg-[#ffffff80] z-40 rounded-full fixed top-0 right-0 m-5 mt-14"></div>
+        <div className="w-[45px] sm:hidden sm:w-[30px] h-[45px] sm:h-[30px] bg-[#ffffff80] z-40 rounded-full fixed top-0 right-0 m-5 mt-14"></div>
 
         <nav className="md:gap-16 md:flex hidden mt-10 md:mt-0 justify-center items-center">
           <ul className="grid grid-cols-2 sm:grid-cols-4 md:gap-24 gap-10 p-2 text-center">
