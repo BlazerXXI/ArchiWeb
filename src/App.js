@@ -5,7 +5,9 @@ import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 
-function App() {
+const App = () => {
+ 
+
   return (
     <>
       <div>
@@ -20,6 +22,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;
