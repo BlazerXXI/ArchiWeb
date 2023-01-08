@@ -21,25 +21,43 @@ const Hero = () => {
   }, [slide]);
 
   const sliderImage = [bgSlide01, bgSlide02, bgSlide03];
+  const sliderTitle = [
+    "Best Solution For Your Home",
+    " For Your Home",
+    "Best Solution",
+  ];
+  const sliderParam = [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut ",
+    "Lorem ipsum dolor sit amet",
+  ];
 
   useEffect(() => {
     document.querySelector(".bgSlide").src = sliderImage[0];
+    document.querySelector("#titleHero").innerHTML = sliderTitle[0];
+    document.querySelector("#sliderParam").innerHTML = sliderParam[0];
     if (slide === 1) {
       document.querySelector(".bgSlide").src = sliderImage[1];
+      document.querySelector("#titleHero").innerHTML = sliderTitle[1];
+      document.querySelector("#sliderParam").innerHTML = sliderParam[1];
     } else if (slide === 2) {
       document.querySelector(".bgSlide").src = sliderImage[2];
+      document.querySelector("#titleHero").innerHTML = sliderTitle[2];
+      document.querySelector("#sliderParam").innerHTML = sliderParam[2];
     }
   });
 
   return (
     <section className="hero relative container m-auto min-h-[861.09px]">
       <div className="lg:w-[691px]   lg:h-[550px] sm:w-[450px]   sm:mt-[-150px]  lg:mt-[-275px]   sm:bg-gradient-to-t sm:from-[#F4F6F5E5] sm:to-[#FFFFFFE5] sm:absolute sm:top-1/2 top-0  left-0  ml-0 lg:ml-[-100px] lg:pl-[100px] py-4 pl-4 sm:py-[60px] lg:py-[138px] sm:pr-4  z-20">
-        <h1 className="font-[900]  text-[51px] font-['Playfair_Display'] ">
-          Best Solution For Your Home ({slide})
+        <h1
+          id="titleHero"
+          className="font-[900]  text-[51px] font-['Playfair_Display'] "
+        >
+          {" "}
         </h1>
-        <p className="font-[200]  text-[32px] pt-[10px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-          purus sit amet
+        <p id="sliderParam" className="font-[200]  text-[32px] pt-[10px]">
+          {" "}
         </p>
       </div>
       <div>
