@@ -34,14 +34,17 @@ const Hero = () => {
 
   useEffect(() => {
     document.querySelector(".bgSlide").src = sliderImage[0];
+    document.querySelector(".bgSlide").alt = sliderTitle[0];
     document.querySelector("#titleHero").innerHTML = sliderTitle[0];
     document.querySelector("#sliderParam").innerHTML = sliderParam[0];
     if (slide === 1) {
       document.querySelector(".bgSlide").src = sliderImage[1];
+      document.querySelector(".bgSlide").alt = sliderTitle[1];
       document.querySelector("#titleHero").innerHTML = sliderTitle[1];
       document.querySelector("#sliderParam").innerHTML = sliderParam[1];
     } else if (slide === 2) {
       document.querySelector(".bgSlide").src = sliderImage[2];
+      document.querySelector(".bgSlide").alt = sliderTitle[2];
       document.querySelector("#titleHero").innerHTML = sliderTitle[2];
       document.querySelector("#sliderParam").innerHTML = sliderParam[2];
     }
@@ -60,10 +63,10 @@ const Hero = () => {
           {" "}
         </p>
       </div>
-      <div>
+      <div className="">
         <img
           src={sliderImage[1]}
-          alt="Best Solution For Your Home"
+          alt=" "
           width="1150px"
           id="heroBg"
           className="filter bgSlide w-full brightness-50 sm:brightness-100 "
