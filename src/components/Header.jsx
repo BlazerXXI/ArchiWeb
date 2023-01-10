@@ -10,8 +10,11 @@ const Header = () => {
   };
   return (
     <header className="container m-auto">
-      <div className=" md:flex items-center md:text-center justify-between mx-2  min-h-[50px] mt-12 mb-20 ">
-        <a href={link} className="font-[Barlow] text-[42px] font-semibold">
+      <div className=" md:flex items-center md:text-center justify-between mx-2  min-h-[50px] mt-12 md:mb-20 mb-10 ">
+        <a
+          href={link}
+          className="font-[Barlow] text-[42px] font-semibold pr-10"
+        >
           ArchiWeb
         </a>
 
