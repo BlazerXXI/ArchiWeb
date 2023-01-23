@@ -52,7 +52,7 @@ const Hero = () => {
 
   return (
     <section className="hero relative container m-auto max-sm:flex max-sm:flex-col max-sm:gap-1">
-      <div className="lg:w-[691px]   lg:h-[550px] sm:w-[450px]   sm:mt-[-150px]  lg:mt-[-275px]   sm:bg-gradient-to-t sm:from-[#F4F6F5E5] sm:to-[#FFFFFFE5] sm:absolute sm:top-1/2 top-0  left-0  ml-0 lg:ml-[-100px] lg:pl-[100px] py-4 pl-4 sm:py-[60px] lg:py-[138px] sm:pr-4  z-20 min-h-[423px]">
+      <div className="lg:w-[691px]  max-sm:justify-end max-sm:flex max-sm:flex-col  lg:h-[550px] sm:w-[450px]   sm:mt-[-150px]  lg:mt-[-275px]   sm:bg-gradient-to-t sm:from-[#F4F6F5E5] sm:to-[#FFFFFFE5] sm:absolute sm:top-1/2 top-0  left-0  ml-0 lg:ml-[-100px] lg:pl-[100px] py-4 pl-4 sm:py-[60px] lg:py-[138px] sm:pr-4  z-20 lg:min-h-[423px]">
         <h1
           id="titleHero"
           className="font-[900]  text-[51px] font-['Playfair_Display'] "
@@ -63,13 +63,12 @@ const Hero = () => {
           {" "}
         </p>
       </div>
-      <div className="">
+      <div>
         <img
           src={sliderImage[1]}
           alt=" "
-          width="1150px"
           id="heroBg"
-          className="filter bgSlide w-full brightness-50 sm:brightness-100 sm:min-h-[862px] min-h-[321px] object-cover"
+          className="filter bgSlide brightness-50 sm:brightness-100 sm:min-h-[862px] min-h-[321px] min-w-[400px]  w-full min-h-[400px]"
         />
         <div className="absolute bottom-0 right-0  flex gap-4 py-2 px-2 sm:gap-[50px] sm:py-[16px] sm:px-[33px] bg-[#F4F6F5B2] ">
           <div onClick={() => setSlide(slide - 1)}>
