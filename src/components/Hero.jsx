@@ -68,7 +68,7 @@ const Hero = () => {
           src={sliderImage[1]}
           alt=" "
           id="heroBg"
-          className="filter bgSlide brightness-50 sm:brightness-100 sm:min-h-[862px] min-h-[321px] min-w-[400px]  w-full min-h-[400px]"
+          className="filter bgSlide brightness-50 sm:brightness-100 sm:min-h-[862px] min-w-[400px]  w-full min-h-[400px]"
         />
         <div className="absolute bottom-0 right-0  flex gap-4 py-2 px-2 sm:gap-[50px] sm:py-[16px] sm:px-[33px] bg-[#F4F6F5B2] ">
           <div onClick={() => setSlide(slide - 1)}>
