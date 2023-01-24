@@ -12,7 +12,14 @@ const TestimonialCard = (props) => {
         >
           {props.nameTestimonial}
         </h3>
-        <p>{props.textTestimonial}</p>
+        <p
+          className="
+				 font-['Playfair_Display']
+				 text-[17px]
+				"
+        >
+          {props.textTestimonial}
+        </p>
       </div>
     </li>
   );

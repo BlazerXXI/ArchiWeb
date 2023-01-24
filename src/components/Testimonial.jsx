@@ -15,7 +15,7 @@ const Testimonial = (props) => {
       <h2 className="mb-[70px] font-['Playfair_Display'] max-md:mb-4 max-md:text-center text-5xl font-[900] text-center">
         Testimonial
       </h2>
-      <ul className="flex flex-col-2 gap-32">
+      <ul className="flex max-sm:flex-col max-sm:w-[50%] m-auto flex-col-2 max-sm:gap-14 sm:gap-32">
         <TestimonialCard
           imgTestimonial={imgTestimonialOne}
           nameTestimonial={nameTestimonial}
