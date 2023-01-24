@@ -18,7 +18,7 @@ const Projects = () => {
     "Our Services Line one Servive line two",
   ];
   return (
-    <section className="projects container m-auto px-[5px]">
+    <section className="projects container m-auto px-[5px] mb-[90px]">
       <div className="flex md:flex-row flex-col md:justify-between md:mb-16">
         <h2 className="font-['Playfair_Display'] max-md:mb-4 max-md:text-center text-5xl font-[900]">
           Our Projects

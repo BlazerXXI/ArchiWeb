@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
-// import Testimonial from "./components/Testimonial";
+import Testimonial from "./components/Testimonial";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
           <Services />
           <About />
           <Projects />
-          {/* <Testimonial /> */}
+          <Testimonial />
         </main>
       </div>
     </>
