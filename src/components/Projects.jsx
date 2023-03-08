@@ -23,7 +23,7 @@ const Projects = () => {
         <h2 className="font-['Playfair_Display'] max-md:mb-4 max-md:text-center text-5xl font-[900]">
           Our Projects
         </h2>
-        <ul className="flex items-center gap-6 max-md:mb-4 max-md:justify-center lg:gap-x-20">
+        <ul className="flex items-center gap-6 max-md:mb-4 max-md:justify-center lg:gap-x-20 max-md:flex-wrap">
           <li className="font-[600]">All</li>
           <li className="">Furniture</li>
           <li className="">Design</li>

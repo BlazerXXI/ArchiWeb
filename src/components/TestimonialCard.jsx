@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialCard = (props) => {
   return (
-    <li className="flex gap-7 items-center justify-center">
+    <li className="flex gap-7 items-center justify-center max-md:flex-wrap">
       <img src={props.imgTestimonial} alt={props.nameTestimonial} />
       <div>
         <h3
