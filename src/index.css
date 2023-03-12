@@ -25,3 +25,12 @@ body {
 section.container {
   max-width: 1340px;
 }
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.footer-p {
+  font-size: 17px;
+}
