@@ -1,16 +1,37 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
+import imgFacebook from "../img/footer/Facebook.png";
+import imgTwitter from "../img/footer/Twitter.png";
+import imgInstagram from "../img/footer/Instagram.png";
 
 export const Footer = () => {
   return (
     <footer className="py-12 bg-[#2E2F32]">
-      <div className="gap-8 flex flex-col">
+      <div className="gap-8 px-2 flex flex-col lg:flex-row">
         <div className="[&>h2]:mb-4 [&>*]:text-[#FAFAFA] container px-2">
           <h2 className=" font-[Barlow] text-[42px] font-semibold">ArchiWeb</h2>
           <p className="footer-p">
             Archiweb is an architectural consultant based in Berlin, Germany. We
             provide solutions for your architecture and residential design
           </p>
+          <ul className="flex gap-9 mt-11">
+            <li>
+              <a href="#">
+                <img src={imgFacebook} alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src={imgTwitter} alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src={imgInstagram} alt="" />
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="[&>h2]:mb-4 [&>*]:text-[#FAFAFA] container px-2">
           <h2 className=" footer-title">Articles</h2>
