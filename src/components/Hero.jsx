@@ -51,8 +51,8 @@ const Hero = () => {
   });
 
   return (
-    <section className="hero relative container m-auto max-sm:flex max-sm:flex-col max-sm:gap-1">
-      <div className="lg:w-[691px]  max-sm:justify-end max-sm:flex max-sm:flex-col  lg:h-[550px] sm:w-[450px]   sm:mt-[-150px]  lg:mt-[-275px]   sm:bg-gradient-to-t sm:from-[#F4F6F5E5] sm:to-[#FFFFFFE5] sm:absolute sm:top-1/2 top-0  left-0  ml-0 lg:ml-[-100px] lg:pl-[100px] py-4 pl-4 sm:py-[60px] lg:py-[138px] sm:pr-4  z-20">
+    <section className="hero max-sm:justify-between max-sm:h-screen relative container m-auto max-sm:flex max-sm:flex-col max-sm:gap-1">
+      <div className="lg:w-[691px] max-sm:justify-end max-sm:flex max-sm:flex-col  lg:h-[550px] sm:w-[450px]   sm:mt-[-150px]  lg:mt-[-275px]   sm:bg-gradient-to-t sm:from-[#F4F6F5E5] sm:to-[#FFFFFFE5] sm:absolute sm:top-1/2 top-0  left-0  ml-0 lg:ml-[-100px] lg:pl-[100px] py-4 pl-4 sm:py-[60px] lg:py-[138px] sm:pr-4  z-20">
         <h1
           id="titleHero"
           className="font-[900] text-[51px] font-['Playfair_Display'] "
