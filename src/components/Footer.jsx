@@ -7,8 +7,8 @@ import imgInstagram from "../img/footer/Instagram.png";
 
 export const Footer = () => {
 	return (
-		<footer className=" container m-auto py-12 bg-[#2E2F32]">
-			<div className="gap-8 px-2 flex flex-col lg:flex-row">
+		<footer className="  py-12 bg-[#2E2F32]">
+			<div className="container m-auto gap-8 px-2 flex flex-col lg:flex-row">
 				<div className="[&>h2]:mb-4 [&>*]:text-[#FAFAFA] container px-2">
 					<h2 className=" font-[Barlow] text-[42px] font-semibold">ArchiWeb</h2>
 					<p className="footer-p">
