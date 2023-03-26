@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header className="container m-auto">
-      <div className=" md:flex items-center md:text-center justify-between mx-2  min-h-[50px] mt-12 md:mb-20 mb-10 ">
+      <div className=" md:flex items-center md:text-center justify-between mx-2  min-h-[50px] mt-6 md:mb-6 mb-4 ">
         <a
           href={link}
           className="font-[Barlow] text-[42px] font-semibold pr-10"
@@ -20,11 +20,11 @@ const Header = () => {
 
         <div
           onClick={handleNav}
-          className="fixed z-50 top-0 rounded-full w-[45px] sm:w-[30px] h-[45px] sm:h-[30px] text-center justify-center items-center active:opacity-40 drop-shadow-md right-0 m-5 mt-14 flex md:hidden cursor-pointer hover:opacity-60 duration-300 ease-in-out"
+          className="fixed z-50 top-0 rounded-full w-[45px] sm:w-[30px] h-[45px] sm:h-[30px] text-center justify-center items-center active:opacity-40 drop-shadow-md right-0 m-5 mt-7 flex md:hidden cursor-pointer hover:opacity-60 duration-300 ease-in-out"
         >
           {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
         </div>
-        <div className="w-[45px] sm:hidden sm:w-[30px] h-[45px] sm:h-[30px] bg-[#ffffff80] z-40 rounded-full fixed top-0 right-0 m-5 mt-14"></div>
+        <div className="w-[45px] sm:hidden sm:w-[30px] h-[45px] sm:h-[30px] bg-[#ffffff80] z-40 rounded-full fixed top-0 right-0 m-5 mt-7"></div>
 
         <nav className="md:gap-16 md:flex hidden mt-10 md:mt-0 justify-center items-center">
           <ul className="grid grid-cols-2 sm:grid-cols-4 md:gap-24 gap-10 p-2 text-center">
