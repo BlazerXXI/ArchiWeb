@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-import bgSlide01 from "../img/pexels-expect-best-323780-res.jpg";
-
-import bgSlide02 from "../img/780-1150x739.jpg";
-
-import bgSlide03 from "../img/641-1150x739.jpg";
-
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
@@ -20,7 +14,11 @@ const Hero = () => {
 		}
 	}, [slide]);
 
-	const sliderImage = [bgSlide01, bgSlide02, bgSlide03];
+	const sliderImage = [
+		"./img/pexels-expect-best-323780-res.jpg",
+		"./img/780-1150x739.jpg",
+		"./img/641-1150x739.jpg",
+	];
 	const sliderTitle = [
 		"Best Solution For Your Home",
 		" For Your Home",

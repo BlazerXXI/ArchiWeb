@@ -1,7 +1,5 @@
 import React from "react";
 
-import ServicesDoc from "../img/services/services-01.svg";
-
 const Services = () => {
 	return (
 		<section className="services bg-[#254D4D33] max-sm:mt-[76px] mb-[76px]">
@@ -16,7 +14,7 @@ const Services = () => {
 						<div className="w-[100px] h-[100px] bg-[#254D4D] rounded-full relative">
 							<img
 								className="absolute top-[23px] left-[25px]"
-								src={ServicesDoc}
+								src={"./img/services/services-01.svg"}
 								alt="Services Doc"
 							/>
 						</div>
@@ -31,7 +29,7 @@ const Services = () => {
 						<div className="w-[100px] h-[100px] bg-[#254D4D] rounded-full relative">
 							<img
 								className="absolute top-[23px] left-[25px]"
-								src={ServicesDoc}
+								src={"./img/services/services-01.svg"}
 								alt="Services Doc"
 							/>
 						</div>
@@ -46,7 +44,7 @@ const Services = () => {
 						<div className="w-[100px] h-[100px] bg-[#254D4D] rounded-full relative">
 							<img
 								className="absolute top-[23px] left-[25px]"
-								src={ServicesDoc}
+								src={"./img/services/services-01.svg"}
 								alt="Services Doc"
 							/>
 						</div>

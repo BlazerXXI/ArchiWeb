@@ -1,22 +1,34 @@
 import React from "react";
 import ProjectsCard from "./ProjectsCard";
 
-import projectsOne from "../img/projects/projectsOne.jpg";
-import projectsTwo from "../img/projects/projectsTwo.jpg";
-import projectsThree from "../img/projects/projectsThree.jpg";
-import projectsFour from "../img/projects/projectsFour.jpg";
-import projectsFive from "../img/projects/projectsFive.jpg";
-import projectsSix from "../img/projects/projectsSix.jpg";
-
 const Projects = () => {
-	const projOneTitle = [
-		"Our Services Line one Servive line two",
-		"Our Services Line one Servive line two",
-		"Our Services Line one Servive line two",
-		"Our Services Line one Servive line two",
-		"Our Services Line one Servive line two",
-		"Our Services Line one Servive line two",
+	const projectsArr = [
+		{
+			img: "./img/projects/projectsOne.jpg",
+			title: "Our Services Line one Servive line two",
+		},
+		{
+			img: "./img/projects/projectsTwo.jpg",
+			title: "Our Services Line one Servive line two",
+		},
+		{
+			img: "./img/projects/projectsThree.jpg",
+			title: "Our Services Line one Servive line two",
+		},
+		{
+			img: "./img/projects/projectsFour.jpg",
+			title: "Our Services Line one Servive line two",
+		},
+		{
+			img: "./img/projects/projectsFive.jpg",
+			title: "Our Services Line one Servive line two",
+		},
+		{
+			img: "./img/projects/projectsSix.jpg",
+			title: "Our Services Line one Servive line two",
+		},
 	];
+
 	return (
 		<section className="projects container m-auto px-[5px] mb-[90px]">
 			<div className="flex md:flex-row flex-col md:justify-between md:mb-16">
@@ -42,36 +54,14 @@ const Projects = () => {
 			</div>
 			<div>
 				<ul className="grid justify-center sm:grid-cols-2 md:grid-cols-3 gap-20">
-					<ProjectsCard
-						img={projectsOne}
-						alt={projOneTitle[0]}
-						title={projOneTitle[0]}
-					/>
-					<ProjectsCard
-						img={projectsTwo}
-						alt={projOneTitle[1]}
-						title={projOneTitle[1]}
-					/>
-					<ProjectsCard
-						img={projectsThree}
-						alt={projOneTitle[2]}
-						title={projOneTitle[2]}
-					/>
-					<ProjectsCard
-						img={projectsFour}
-						alt={projOneTitle[3]}
-						title={projOneTitle[3]}
-					/>
-					<ProjectsCard
-						img={projectsFive}
-						alt={projOneTitle[4]}
-						title={projOneTitle[4]}
-					/>
-					<ProjectsCard
-						img={projectsSix}
-						alt={projOneTitle[5]}
-						title={projOneTitle[5]}
-					/>
+					{projectsArr.map((project, id) => (
+						<ProjectsCard
+							key={id}
+							img={project.img}
+							alt={project.title}
+							title={project.title}
+						/>
+					))}
 				</ul>
 			</div>
 		</section>

@@ -1,9 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import imgFacebook from "../img/footer/Facebook.png";
-import imgTwitter from "../img/footer/Twitter.png";
-import imgInstagram from "../img/footer/Instagram.png";
 
 export const Footer = () => {
 	return (
@@ -18,17 +13,17 @@ export const Footer = () => {
 					<ul className="flex gap-9 mt-11">
 						<li>
 							<a href="#">
-								<img src={imgFacebook} alt="" />
+								<img src="./img/footer/Facebook.png" alt="Facebook" />
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<img src={imgTwitter} alt="" />
+								<img src="./img/footer/Twitter.png" alt="Twitter" />
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<img src={imgInstagram} alt="" />
+								<img src="./img/footer/Instagram.png" alt="Instagram" />
 							</a>
 						</li>
 					</ul>
