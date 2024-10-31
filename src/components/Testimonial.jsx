@@ -24,7 +24,7 @@ const Testimonial = () => {
   return (
     <section className="testimonial container m-auto">
       <h2 className="mb-[70px] max-md:text-3xl font-['Playfair_Display'] max-md:mb-4 max-md:text-center text-5xl font-[900] text-center">
-        Отзывы
+        Testimonials
       </h2>
       <div className="w-screen">
         <ul className="flex [&>*]:w-full max-sm:flex-col max-sm:w-[50%] m-auto flex-col-2 gap-4 w-full">
